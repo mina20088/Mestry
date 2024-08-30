@@ -1,0 +1,60 @@
+.navbar .btn-outline-light:hover {
+  color: #333;
+}
+
+.header {
+  background: url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.brand {
+  width: 300px;
+}
+
+.Icon-section-Icon {
+  flex-basis: 10%;
+}
+
+.Icon-section-content {
+  flex-basis: 90%;
+}
+
+.opacity-9 {
+  opacity: 0.9;
+  transition: 1s ease-in-out;
+}
+
+.modal-xxl {
+  max-width: 1540px;
+}
+
+@media (min-width: 576px) {
+  .navbar {
+    background-color: #333;
+  }
+  .download-paragraph {
+    word-spacing: 3px;
+  }
+  .download {
+    background-image: url("../images/download-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .download-img {
+    margin-top: -7.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .navbar {
+    background-color: transparent;
+  }
+}
+@media (max-width: 576px) {
+  .brand {
+    width: 200px;
+  }
+  .header {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
