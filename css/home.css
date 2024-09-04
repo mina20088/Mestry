@@ -67,4 +67,38 @@
     font-size: 4rem;
     text-align: center;
   }
+  .Icon {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .Icon > .container-xl > .row .col-md-4:nth-child(n+1) {
+    gap: 10px;
+  }
+  .Icon > .container-xl > .row .col-md-4:nth-child(2) i {
+    margin-left: -0.9rem;
+  }
+  .details {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .details .container-xl > .row .col-lg-6:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+  }
+  .details .container-xl > .row .col-lg-6:nth-child(1) > div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .statement {
+    padding-bottom: 8rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .statement > .container {
+    padding: 3rem;
+  }
 }
