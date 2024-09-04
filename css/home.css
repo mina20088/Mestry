@@ -49,7 +49,7 @@
     background-color: transparent;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575.9px) {
   body {
     width: 100%;
   }
@@ -102,14 +102,49 @@
     margin-bottom: 2rem;
   }
   .statement {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     padding-right: 1rem;
     padding-left: 1rem;
   }
   .statement > .container {
     padding: 3rem;
   }
+  .details-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .details-2 .container-xl > .row > .col-lg-6:nth-child(1) {
+    margin-bottom: 3rem;
+  }
+  .testimonials {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .testimonials .container-xl > .row .col-md-4:nth-child(n+1) {
+    margin-bottom: 1rem;
+  }
+  .testimonials .container-xl > .row .col-md-4:nth-child(n+1) div:nth-child(n+1) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .download {
+    background: url("../images/download-background.jpg");
+    margin-top: 5.1rem;
+    padding-bottom: 3rem;
+  }
+  .download > .container-xl > .row > .col-sm-12:nth-child(1) {
+    justify-content: center;
+  }
   .download > .container-xl > .row > .col-sm-12:nth-child(1) img {
-    width: 100%;
+    width: 90%;
+    margin-top: -5.1rem;
+  }
+  .download > .container-xl > .row > .col-sm-12:nth-child(2) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    align-items: center;
   }
 }
