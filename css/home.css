@@ -49,7 +49,10 @@
     background-color: transparent;
   }
 }
-@media (max-width: 575.9px) {
+@media (max-width: 576px) {
+  body {
+    width: 100%;
+  }
   .brand {
     width: 200px;
   }
