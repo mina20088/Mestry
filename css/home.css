@@ -147,4 +147,17 @@
     padding-left: 1rem;
     align-items: center;
   }
+  .social {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .social > .container-lg > .row .col-12:nth-child(1) p {
+    font-size: large;
+  }
+  .footer > .container-lg > .row .col-sm-6:nth-child(1) {
+    width: 45%;
+  }
+  .footer > .container-lg > .row .col-sm-6:nth-child(2) {
+    width: 55%;
+  }
 }
