@@ -90,8 +90,8 @@
   .details {
     padding-top: 8rem;
     padding-bottom: 2rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .details .container-xl > .row .col-lg-6:nth-child(1) {
     justify-content: center;
