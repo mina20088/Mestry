@@ -49,12 +49,22 @@
     background-color: transparent;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575.9px) {
   .brand {
     width: 200px;
   }
   .header {
     padding-top: 8rem;
     padding-bottom: 8rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .hero-section-warpper {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .hero-section-warpper div h1 {
+    font-size: 4rem;
+    text-align: center;
   }
 }
