@@ -98,8 +98,14 @@
                 text-align: center;
             }
             p{
-                font-size: 1.5em;
+                font-size: 1em;
                 text-align: center;
+            }
+            div > form {
+                input {
+                    height: 1rem;
+                }
+
             }
         }
     }
@@ -149,5 +155,16 @@
         & > .container {
             padding: 3rem;
         }
+    }
+
+    .download{
+         & > .container-xl > .row > .col-sm-12 
+         {
+            &:nth-child(1){
+                img { 
+                    width: 100%;
+                }
+            }
+         }
     }
 }
