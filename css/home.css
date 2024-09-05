@@ -130,6 +130,39 @@
     padding-right: 1rem;
     text-align: center;
   }
+  .modal button {
+    width: 25%;
+  }
+  .craft-model-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .craft-model-body div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .craft-model-body div:nth-child(2) h2 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .craft-model-body div:nth-child(2) p {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .craft-model-body div:nth-child(2) div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .craft-model-body div:nth-child(2) div button {
+    margin-right: 1rem;
+    flex-basis: 25%;
+    padding: 1rem;
+  }
   .download {
     background: url("../images/download-background.jpg");
     margin-top: 5.1rem;
