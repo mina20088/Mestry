@@ -156,6 +156,9 @@
         margin-bottom: 3rem;
         .container-xl > .row {
             .col-md-4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 &:nth-child(n+1){
                     margin-bottom: 1rem;
                     div{
@@ -163,6 +166,14 @@
                             padding-left: 1rem;
                             padding-right: 1rem;
                             text-align: center;
+                            justify-content: center;
+                            align-items: center;
+                            img{
+                                width: 50%;
+                            }
+                            & > div > p {
+                                font-size: 1em;
+                            }
                         }
                     }
                 }

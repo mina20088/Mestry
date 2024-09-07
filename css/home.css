@@ -125,6 +125,11 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
+  .testimonials .container-xl > .row .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .testimonials .container-xl > .row .col-md-4:nth-child(n+1) {
     margin-bottom: 1rem;
   }
@@ -132,6 +137,14 @@
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonials .container-xl > .row .col-md-4:nth-child(n+1) div:nth-child(n+1) img {
+    width: 50%;
+  }
+  .testimonials .container-xl > .row .col-md-4:nth-child(n+1) div:nth-child(n+1) > div > p {
+    font-size: 1em;
   }
   .modal button {
     width: 25%;
