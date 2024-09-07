@@ -16,6 +16,16 @@
         clip-path: polygon(0 1%, 100% 0%, 100% 80%, 0% 100%)
     }
 }
-@media (min-width:768px){
+@media (max-width: 576px) {
+    .header {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+      clip-path: polygon(0 1%, 100% 0%, 100% 80%, 0% 100%);
+      & > .container > .row > .col-sm-12{
+          p{
+              text-align: center;
+          }
+      }
 
-}
+    }
+  }
