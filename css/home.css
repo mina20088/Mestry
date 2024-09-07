@@ -58,8 +58,3 @@
     padding-bottom: 8rem;
   }
 }
-@media (max-width: 576px) {
-  .navbar {
-    background-color: #333;
-  }
-}
