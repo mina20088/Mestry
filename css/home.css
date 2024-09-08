@@ -141,7 +141,7 @@
     align-items: center;
   }
   .testimonials .container-xl > .row .col-md-4:nth-child(n+1) div:nth-child(n+1) img {
-    width: 50%;
+    width: 35%;
   }
   .testimonials .container-xl > .row .col-md-4:nth-child(n+1) div:nth-child(n+1) > div > p {
     font-size: 1em;
