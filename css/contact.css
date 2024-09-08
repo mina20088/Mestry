@@ -14,11 +14,25 @@
 }
 
 @media (min-width: 576px) {
+  .navbar {
+    background-color: #333;
+    opacity: 0.9;
+  }
+  .brand {
+    width: 200px;
+  }
   .header {
     clip-path: polygon(0 1%, 100% 0%, 100% 80%, 0% 100%);
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 575.9px) {
+  .navbar {
+    background-color: #333;
+    opacity: 0.9;
+  }
+  .navbar > .container > a > img {
+    width: 200px;
+  }
   .header {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -26,5 +40,28 @@
   }
   .header > .container > .row > .col-sm-12 p {
     text-align: center;
+  }
+  .contact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .social {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .footer > .container-lg > .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer > .container-lg > .row .col-sm-6:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+  .footer > .container-lg > .row .col-sm-6:nth-child(2) {
+    justify-content: center;
   }
 }
