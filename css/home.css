@@ -79,10 +79,7 @@
     height: 1rem;
   }
   .Icon {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 8rem 1rem;
   }
   .Icon > .container-xl > .row .col-md-4:nth-child(n+1) {
     gap: 10px;
@@ -91,10 +88,7 @@
     margin-left: -0.9rem;
   }
   .details {
-    padding-top: 8rem;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 8rem 1rem 2rem;
   }
   .details .container-xl > .row .col-lg-6:nth-child(1) {
     justify-content: center;
@@ -123,7 +117,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 7.4rem;
   }
   .testimonials .container-xl > .row .col-md-4 {
     display: flex;
@@ -189,7 +183,7 @@
   }
   .download > .container-xl > .row > .col-sm-12:nth-child(1) img {
     width: 90%;
-    margin-top: -5.1rem;
+    margin-top: -7.4rem;
   }
   .download > .container-xl > .row > .col-sm-12:nth-child(2) {
     padding-right: 1rem;
